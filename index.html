@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container py-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-dark.png" alt="" width="142">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex mx-auto">
+                            <input class="form-control me-1 px-5" type="search" placeholder="Search your products"
+                                aria-label="Search">
+                            <div class="dropdown">
+                                <a class="btn btn-light border dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    All Categories
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active navColor navCustom p3-2" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navCustom px-3" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navCustom px-3" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navCustom" href="#">Account</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class=" bgColor py-4 pt-md-5">
+        <div class="container py-xl-2">
+            <div class="row">
+                <!-- Slider -->
+                <div class="col-xl-9 pt-xl-4 order-xl-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active  ">
+                                <div class="row align-items-center">
+                                    <div class=" col-lg-5 col-md-6 offset-lg-1 pt-4 pb-md text-center text-md-start">
+                                        <h2 class="fw-light pb-1">World of music with</h2>
+                                        <h1 class="display-4 fw-bold delay-1">Headphones</h1>
+                                        <h5 class="fw-light pb-3 from- bottom delay-2">Choose between top brand</h5>
+                                        <div class="d-table scale-up delay-4 mx-auto mx-md-0">
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/05.jpg" class="d-block mx-auto" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class=" col-lg-5 col-md-6 offset-lg-1 pt-4 pb-md text-center text-md-start">
+                                        <h2 class="fw-light pb-1 from-bottom">World of music with</h2>
+                                        <h1 class="display-4 delay-1 fw-bold">Headphone</h1>
+                                        <h5 class="fw-light pb-3 from- bottom delay-2">Choose between top brand</h5>
+                                        <div class="d-table scale-up delay-4 mx-auto mx-md-0">
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/04.jpg" class="d-block mx-auto" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class=" col-lg-5 col-md-6 offset-lg-1 pt-4 pb-md text-center text-md-start">
+                                        <h2 class="fw-light pb-1 from-bottom">World of music with</h2>
+                                        <h1 class="display-4 delay-1 fw-bold">Headphone</h1>
+                                        <h5 class="fw-light pb-3 delay-2">Choose between top brand</h5>
+                                        <div class="d-table scale-up delay-4 mx-auto mx-md-0">
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/06.jpg" class="d-block mx-auto" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Banner Group -->
+                <div class="col-xl-3 order-xl-1 pt-4 mt-3 mt-xl-0 pt-xl-0">
+                    <div class="d-flex d-xl-block ">
+                        <a class="d-flex align-items-center bg-info rounded-3 pt-2 ps-2 mb-4 me-4 me-xl-0 shadow-lg bannerT"
+                            href="#" style="min-width: 16rem;"><img src="images/banner-sm01.png" width="125" alt="">
+                            <div class="py-4 px-2">
+                                <h5 class="mb-2"><span class="fw-light">Next Gen</span>
+                                    <br>
+                                    Video <span class="fw-light">with</span>
+                                    <br>
+                                    360 Cam
+                                </h5>
+                                <div class="text-danger fs-sm">Shop now ></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex d-xl-block ">
+                        <a class="d-flex align-items-center bg-success rounded-3 pt-2 ps-2 mb-4 me-4 me-xl-0 bannerT shadow-lg"
+                            href="#" style="min-width: 16rem;"><img src="images/banner-sm02.png" width="125" alt="">
+                            <div class="py-4 px-2">
+                                <h5 class="mb-2"><span class="fw-light">Next Gen</span>
+                                    <br>
+                                    <span class="fw-bold">Video </span> <span class="fw-light">with</span>
+                                    <br>
+                                    360 Cam
+                                </h5>
+                                <div class="text-info fs-sm">Shop now ></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex d-xl-block ">
+                        <a class="d-flex align-items-center bg-warning rounded-3 pt-2 ps-2 mb-4 me-4 me-xl-0 bannerT shadow-lg"
+                            href="#" style="min-width: 16rem;"><img src="images/banner-sm03.png" width="125" alt="">
+                            <div class="py-4 px-2">
+                                <h5 class="mb-2"><span class="fw-light">Next Gen</span>
+                                    <br>
+                                    Video <span class="fw-light">with</span>
+                                    <br>
+                                    360 Cam
+                                </h5>
+                                <div class="text-info fs-sm">Shop now ></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="container pt-5">
+            <!-- Heading -->
+            <div class="d-flex flex-wrap justify-content-between align-items-center pt-1 border-bottom pb-4 mb-4">
+                <h2 class="h3 mb-0 pt-3 me-2">Trending Products</h2>
+                <div class="pt-3">
+                    <a class="btn btn-outline-danger btn-sm" href="">More Products ></a>
+                </div>
+            </div>
+
+            <!-- Grid -->
+            <div class="row pt-2 mx-n2">
+                <!-- product -->
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/58.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/59.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/60.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/61.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/62.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/63.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/64.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                    <div class="card product-card">
+                        <a class="card-img-top" href="#"><img src="images/65.jpg" alt=""></a>
+                        <div class="card-body py-2">
+                            <a class="product-meta fs-xs pb-1" href="#">Headphones</a>
+                            <h6 class="product-title fs-sm">
+                                <a href="#">Wireless Blutooth Headphones</a>
+                            </h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="product-price">
+                                    <p class="text-primary fw-bold">$198.<small>00</small></p>
+                                </div>
+                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <div class="card-hidden">
+                            <button class="btn btn-danger btn-sm d-block w-100 mb-2" type="button">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-4 mb-grid-gutter">
+            <div class="bgColor rounded-3 py-4">
+                <div class="row align-items-center px-4">
+                    <div class="col-md-5">
+                        <div class="px-4 pe-sm-0 ps-sm-5"><span class="badge bg-danger">Limited Offer</span>
+                            <h3 class="mt-4 mb-1 text-body fw-light">All new</h3>
+                            <h2 class="mb-1">Last Gen iPad Pro</h2>
+                            <p class="h5 text-body fw-light">at discounted price. Hurry up!</p><br>
+                            <p class="h6 text-warning fw-bolder"> <span class="text-danger h4">03</span>days
+                                <span class="text-danger h4">07</span>hrs
+                                <span class="text-danger h4">30</span>mnts <span class="text-dark h4">Left!</span>
+                            </p>
+                            <a class="btn btn-primary p-2" href="#">View offers ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7"><img src="images/offer.jpg" alt="iPad Pro Offer"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
