@@ -60,3 +60,68 @@ img, figure {
     color: #373f50;
     text-decoration: none !important;
 } */
+
+.product-card .card-body {
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+}
+.product-card {
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 1.25rem;
+    border: 0;
+    transition: all 0.15s ease-in-out;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.4375rem - 1px);
+    border-top-right-radius: calc(.4375rem - 1px);
+}
+.card-img, .card-img-top, .card-img-bottom {
+    width: 100%;
+}
+.product-meta {
+    transition: color 0.25s ease-in-out;
+    color: #7d879c;
+    text-decoration: none !important;
+}
+.product-title>a {
+    transition: color 0.25s ease-in-out;
+    color: #373f50;
+    text-decoration: none !important;
+}
+.text-accent {
+    color: #4e54c8 !important;
+}
+.nav-link-style {
+    color: #4b566b;
+    text-decoration: none;
+}
+.fs-ms {
+    font-size: .8125rem !important;
+}
+
+.product-card .card-body-hidden {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    margin-top: -1.25rem;
+    transition: all 0.15s ease-in-out;
+    border-radius: .4375rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.product-card:hover:not(.card-static) {
+    border-color: #fff !important;
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+.product-card:hover:not(.card-static) .card-body-hidden {
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
