@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .navCustom{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
 }
 .navCustom:hover{
-    border-bottom: 3px solid red;
+    border-radius: 15px;
+    background-color: #d70f64;
+    color:white !important;
 }
 .navColor{
-    color: red !important;
+    color: #d70f64 !important;
 }
-
+.navColor1{
+    background-color:white!important;
+}
 .bgColor{
     background-color: #F6FAFD;
-    margin-top: 5em !important;
+    margin-top: 5.3em !important;
 }
 .bannerT{
     text-decoration: none;
@@ -123,5 +127,9 @@ img, figure {
 .product-card:hover:not(.card-static) .card-body-hidden {
     opacity: 1;
     visibility: visible;
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
+
+.shadowBox{
     box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
 }
