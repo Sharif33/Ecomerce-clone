@@ -9,13 +9,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/203a9a87d6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <header>
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <nav class="navbar navColor1 navbar-expand-lg navbar-light fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#">
@@ -27,26 +28,26 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class=" mx-auto">
-                            <div class="input-group mx-lg-5 my-lg-3 px-5">
+                        <form class="mx-auto">
+                            <div class="input-group mx-lg-5 my-lg-2 px-5">
                                 <input type="search" placeholder="Search your products" class="form-control"
                                     aria-label="Text input with dropdown button">
-                                <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                <button class="btn btn-outline-dark dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
                                 <ul class="dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Computer</a></li>
+                                    <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                    <li><a class="dropdown-item" href="#">Fashion (men)</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
                                 </ul>
                             </div>
 
 
                         </form>
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav ms-auto my-lg-2">
                             <li class="nav-item">
                                 <a class="nav-link active navColor navCustom p3-2" aria-current="page" href="#">Home</a>
                             </li>
@@ -56,10 +57,24 @@
                             <li class="nav-item">
                                 <a class="nav-link navCustom px-3" href="#">Pages</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="login.html"><button class="btn navCustom" type="button"
-                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                                        aria-controls="offcanvasRight">Account</button></a>
+                            <li class="nav-item px-3">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-dark"><i class="fas fa-user"></i>
+                                        <span class="fw-bold text-secondary">Profile</span>
+                                    </button>
+                                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                                    </ul>
+                                </div>
                             </li>
 
                         </ul>
@@ -92,7 +107,7 @@
                                         <h1 class="display-4 fw-bold delay-1">Headphones</h1>
                                         <h5 class="fw-light pb-3 from- bottom delay-2">Choose between top brand</h5>
                                         <div class="d-table scale-up delay-4 mx-auto mx-md-0">
-                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -107,7 +122,7 @@
                                         <h1 class="display-4 delay-1 fw-bold">Headphone</h1>
                                         <h5 class="fw-light pb-3 from- bottom delay-2">Choose between top brand</h5>
                                         <div class="d-table scale-up delay-4 mx-auto mx-md-0">
-                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -122,7 +137,7 @@
                                         <h1 class="display-4 delay-1 fw-bold">Headphone</h1>
                                         <h5 class="fw-light pb-3 delay-2">Choose between top brand</h5>
                                         <div class="d-table scale-up delay-4 mx-auto mx-md-0">
-                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now ></a>
+                                            <a class="btn btn-danger shadow px-3 py-2" href="#">Shop Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -217,7 +232,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -242,7 +259,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -267,7 +286,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -292,7 +313,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -317,7 +340,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -342,7 +367,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -367,7 +394,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -392,7 +421,9 @@
                                 <div class="product-price">
                                     <p class="text-accent fw-bold">$198.<small>00</small></p>
                                 </div>
-                                <div class="text-danger">⭐⭐⭐⭐⭐</div>
+                                <div class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                         <div class=" card-body card-body-hidden">
@@ -408,6 +439,10 @@
             </div>
         </section>
 
+
+        <!-- Offer -->
+
+
         <section class="container mt-4 mb-grid-gutter">
             <div class="bgColor rounded-3 py-4">
                 <div class="row align-items-center px-4">
@@ -416,11 +451,11 @@
                             <h3 class="mt-4 mb-1 text-body fw-light">All new</h3>
                             <h2 class="mb-1">Last Gen iPad Pro</h2>
                             <p class="h5 text-body fw-light">at discounted price. Hurry up!</p><br>
-                            <p class="h6 text-warning fw-bolder"> <span class="fw-bold h4">03</span>days
-                                <span class="fw-bold h4">07</span>hrs
-                                <span class="fw-bold h4">30</span>mnts <span class="fw-bold h4">Left!</span>
+                            <p class="h6 fw-bolder"> <span class="fw-bold h4">3</span>d
+                                <span class="fw-bold h4">7</span>h
+                                <span class="fw-bold h4">30</span>m <span class="fw-bold h4">Left!</span>
                             </p>
-                            <a class="btn btn-primary p-2" href="#">View offers ></a>
+                            <a class="btn btn-primary p-1" href="#">View offers</a>
                         </div>
                     </div>
                     <div class="col-md-7"><img src="images/offer.jpg" alt="iPad Pro Offer"></div>
@@ -670,6 +705,126 @@
         </section>
     </main>
 
+    <footer>
+        <div class="footerBg">
+            <section class="container py-5">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-lg-4">
+                        <ul type="none">
+                            <li class="fw-bold h6">Shop departments</li>
+                            <li><a class="productList" href="#">Sneakers & Athletic</a></li>
+                            <li><a class="productList" href="#">Athletic Apparel</a></li>
+                            <li><a class="productList" href="#">Sandals</a></li>
+                            <li><a class="productList" href="#">Jeans</a></li>
+                            <li><a class="productList" href="#">Shirts & Tops</a></li>
+                            <li><a class="productList" href="#">Shorts</a></li>
+                            <li><a class="productList" href="#">T-shirts</a></li>
+                            <li><a class="productList" href="#">Swimwear</a></li>
+                            <li><a class="productList" href="#">Clogs & Mules</a></li>
+                            <li><a class="productList" href="#">Bags & Wallets</a></li>
+                            <li><a class="productList" href="#">Accesories</a></li>
+                            <li><a class="productList" href="#">Sunglasses & Eyewear</a></li>
+                            <li><a class="productList" href="#">Watches</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-lg-4">
+                        <ul type="none">
+                            <li class="fw-bold h6">Account & shipping info</li>
+                            <li><a class="productList" href="#">Your account</a></li>
+                            <li><a class="productList" href="#">Shipping rates & policies</a></li>
+                            <li><a class="productList" href="#">Refunds & replacement</a></li>
+                            <li><a class="productList" href="#">Order tracking</a></li>
+                            <li><a class="productList" href="#">Delivery info</a></li>
+                            <li><a class="productList" href="#">Taxes & fees</a></li>
+                            <li class="fw-bold h6 my-3">About Us</li>
+                            <li><a class="productList" href="#">About company</a></li>
+                            <li><a class="productList" href="#">Our team</a></li>
+                            <li><a class="productList" href="#">Careers</a></li>
+                            <li><a class="productList" href="#">News</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-lg-4">
+                        <ul type="none">
+                            <li class="fw-bold h6 mb-3">Stay informed</li>
+                            <li>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="✉ Your email"
+                                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-danger" type="button" id="button-addon2">Subscribe*</button>
+                                </div><small class="productList">*Subscribe to our newsletter to receive early discount
+                                    offers, updates
+                                    and new products
+                                    info.</small>
+                            </li>
+                            <li class="fw-bold h6 mt-5 mb-1">Download our App</li>
+                            <div class="d-flex align-items-center">
+                                <img class="w-50" src="images/pngegg (1).png" alt="">
+                                <img class="w-50" src="images/pngegg (2).png" alt="">
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="footerBg2">
+            <section class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="w-25 px-1 me-3" src="images/footer-logo-light.png" alt="">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle text-white" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><img
+                                        class="w-25 px-1" src="images/en.png" alt=""> <small> Eng / $</small>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-md-start my-3">
+                            <p><a class="productList me-4" href="#">Outlets</a></p>
+                            <p><a class="productList me-4" href="#">Affiliates</a></p>
+                            <p><a class="productList me-4" href="#">Support</a></p>
+                            <p><a class="productList me-4" href="#">Privacy</a></p>
+                            <p><a class="productList me-4" href="#">Terms of use</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-end mb-4">
+                        <div class="mb-3">
+                            <a class="btn-social bs-light bs-twitter ms-2 mb-2" href="#"> <i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn-social bs-light bs-facebook  ms-2  mb-2" href="#"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a class="btn-social bs-light bs-instagram ms-2 mb-2" href="#"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-social bs-light bs-pinterest ms-2 mb-2" href="#"><i
+                                    class="fab fa-pinterest"></i></a>
+                            <a class="btn-social bs-light bs-youtube ms-2 mb-2" href="#"><i
+                                    class="fab fa-youtube"></i></a>
+
+                        </div>
+                        <div>
+                            <img class="w-25" src="images/cards-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="text-center text-secondary pb-3 ">
+                    <small><span>&copy;</span>All rights reserved. Made by Sharif Mohammad Rashed</small>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

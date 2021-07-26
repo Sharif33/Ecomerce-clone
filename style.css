@@ -19,6 +19,9 @@
     background-color: #F6FAFD;
     margin-top: 5.3em !important;
 }
+.fa-user{
+    font-size: 1.5em;
+}
 .bg-faded-info{
     background-color: #E9F3FC;
 }
@@ -154,4 +157,64 @@ img, figure {
 }
 .saleH:hover{
     color:#d70f64;
+}
+.footerBg{ 
+    font-family: 'Rubik', sans-serif;
+    background-color: #373F50;
+    color: white;
+}
+.productList{
+    text-decoration: none;
+    color: lightgray;
+    margin-bottom: .25rem;
+    font-size: .85rem;
+}
+.productList:hover{
+    color: white;
+}
+
+/* Icons hover */
+
+.footerBg2{
+    background-color: #2B3445;
+}
+
+.btn-social.bs-light {
+    background-color: rgba(255,255,255,0.08);
+    color: #fff;
+}
+.btn-social>i {
+    line-height: 2.125rem;
+}
+.btn-social {
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    border: 1px solid transparent;
+    transition: border-color 0.25s ease-in-out,background-color 0.25s ease-in-out,color 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
+    border-radius: .3125rem;
+    font-size: .875rem;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.btn-social.bs-light:hover {
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+.bs-twitter:hover.bs-light {
+    color: #1da1f2;
+}
+.bs-facebook:hover.bs-light {
+    color: #3b5998;
+}
+.bs-instagram:hover.bs-light {
+    color: #5851db;
+}
+.bs-pinterest:hover.bs-light {
+    color: #bd081c;
+}
+.bs-youtube:hover.bs-light {
+    color: #ff0000;
 }
